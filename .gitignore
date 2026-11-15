@@ -1,2 +1,11 @@
+# Dependencies are never installed: the entry runs on Node's standard library alone.
+node_modules/
+
+# Local hand-in output (`MAKEFUN_OUTPUT_DIR=out node main.ts`). The grader writes /output instead.
 out/
-claude-build.log
+
+*.log
+
+# Editors and the OS.
+.DS_Store
+*.swp
